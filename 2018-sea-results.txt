@@ -1,0 +1,60 @@
+
+CREATE TABLE second_sch (
+	secsch_id  INTEGER NOT NULL,
+	secsch_name VARCHAR(60),
+	secsch_ori VARCHAR (30),
+	secsch_sex VARCHAR(10),
+	postal_code CHAR(6),
+	loc VARCHAR(30),
+	county CHAR(2),
+	PRIMARY KEY(secsch_id)
+);
+
+INSERT INTO second_sch VALUES ('579','St. Augustine Girls High School','Presbyterian','Girls','311032','St. Augustine','SG')'
+INSERT INTO second_sch VALUES ('298','Lakshmi Girls Hindu College','Hindu','Girls',' ','St. Augustine','SG');
+INSERT INTO second_sch VALUES ('456','Presentation College','Roman Catholic','Boys',' ','Chaguanas','CA');
+INSERT INTO second_sch VALUES ('389','Naparima College','Presbyterian','Boys','600301','San Fernando','VI');
+INSERT INTO second_sch VALUES ('260','Hillview College','Presbyterian','Mixed','330236','Tunapuna','SG');
+INSERT INTO second_sch VALUES ('390','Naparima Girls' College','Presbyterian','Girls','','San Fernando','VI');
+INSERT INTO second_sch VALUES ('612','St. Joseph Convent','Roman Catholic','Girls',' ','St. Joseph','SG');
+INSERT INTO second_sch VALUES ('614','St. Joseph Convent','Roman Catholic','Girls',' ','San Fernando','VI');
+INSERT INTO second_sch VALUES ('213','Fatima College','Roman Catholic','Boys','','Port of Spain','SG');
+INSERT INTO second_sch VALUES ('613','St. Joseph Convent','Roman Catholic','Girls','','Port of Spain','SG');
+INSERT INTO second_sch VALUES ('457','Presentation College','Roman Catholic','Boys','','San Fernando','VI');
+INSERT INTO second_sch VALUES ('269','Holy Name Convent','Roman Catholic','Girls','','Port of Spain','SG');
+INSERT INTO second_sch VALUES ('264','Holy Faith Convent','Roman Catholic','Girls','','Couva','CA');
+INSERT INTO second_sch VALUES ('622','St. Marys' College','Roman Catholic','Girls','','Port of Spain','SG');
+INSERT INTO second_sch VALUES ('030','ASJA Girls','Muslim','Girls','','San Fernando','VI');
+INSERT INTO second_sch VALUES ('265','Holy Faith Convent','Roman Catholic','Girls','','Penal','SP');
+INSERT INTO second_sch VALUES ('063','Bishop Anstey East','Roman Catholic','Girls','','Port of Spain','SG');
+INSERT INTO second_sch VALUED ('484','Rio Claro West Secondary','Government','Mixed','','Rio Claro','MA');
+
+
+CREATE TABLE county (
+		abb CHAR(2) PRIMARY KEY (abb),
+		county_name VARCHAR(25)
+);
+
+INSERT INTO county VALUES ('SG','St. George');
+insert into county values ('SA','St. Andrew');
+insert into county values ('SP','St. Patrick');
+insert into county values ('CA','Caroni');
+insert into county values ('NA','Navaria');
+insert into county values ('MA','Mayaro');
+insert into county values ('SD','St. David');
+insert into county values ('VI','Victoria');
+
+CREATE TABLE 
+
+
+
+
+
+
+CREATE TABLE primary_sch (
+	primsch_id INTEGER,
+	primsch_name VARCHAR(40),
+	primsch_faith (VARCHAR),
+ 	PRIMARY KEY(primsch_id)
+);
+
